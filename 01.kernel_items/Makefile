@@ -6,4 +6,4 @@ KDIR := /home/dfrobot/Desktop/f1c/buildroot-tiny200/output/build/linux-5.4.66
 all:
 	make -C $(KDIR) M=$(PWD) modules
 clean:
-	rm -f *.ko *.o *.mod *.mod.o *.mod.c *.symvers modul*
+	rm -f *.ko *.o *.mod *.mod.o *.mod.c .ker_items.* *.symvers modul*
